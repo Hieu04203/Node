@@ -83,3 +83,7 @@ button:hover {
         /* Thu nhỏ font chữ của nút */
     }
 }
+
+img {
+    width: 200px;
+}
