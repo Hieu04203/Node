@@ -1,0 +1,85 @@
+/* Căn chỉnh body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Chiều cao toàn màn hình */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* Font chữ mặc định */
+    background-color: #f0f0f5;
+    /* Màu nền nhẹ nhàng */
+}
+
+/* Form container */
+form {
+    width: 100%;
+    max-width: 400px;
+    /* Đảm bảo form không quá rộng */
+    background-color: white;
+    /* Nền trắng */
+    padding: 20px;
+    border-radius: 8px;
+    /* Bo góc form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Đổ bóng nhẹ */
+    border: 1px solid #ccc;
+}
+
+/* Label styles */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Input styles */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 16px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* Bo góc input */
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Button styles */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #04AA6D;
+    /* Màu xanh đậm */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    /* Bo góc nút */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #038654;
+    /* Đổi màu khi hover */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 400px) {
+    form {
+        padding: 16px;
+        /* Thu nhỏ padding trên màn hình nhỏ */
+    }
+
+    button {
+        font-size: 14px;
+        /* Thu nhỏ font chữ của nút */
+    }
+}
